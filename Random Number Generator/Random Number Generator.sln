@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Random Number Generator", "Random Number Generator.pyproj", "{730FAAD6-8979-43A3-9F99-F3102BC48419}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{730FAAD6-8979-43A3-9F99-F3102BC48419}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{730FAAD6-8979-43A3-9F99-F3102BC48419}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C9D5CFCE-CB9E-401E-A62B-00C9D75462FA}
+	EndGlobalSection
+EndGlobal
