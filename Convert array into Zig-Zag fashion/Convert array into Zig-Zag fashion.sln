@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Convert array into Zig-Zag fashion", "Convert array into Zig-Zag fashion.pyproj", "{8D6EAC4E-E520-4C38-94EC-6183D76BA684}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D6EAC4E-E520-4C38-94EC-6183D76BA684}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D6EAC4E-E520-4C38-94EC-6183D76BA684}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03DACB10-4DFC-4B3B-B240-C1720FF54420}
+	EndGlobalSection
+EndGlobal
