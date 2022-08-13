@@ -5,7 +5,8 @@
     Here coloring of a graph means the assignment of colors to all vertices. 
     Print True if it is possible to colour vertices and False otherwise.
 '''
-print('''Function to determine if graph can be coloured with at most M colours such
+print('''Given an undirected graph and an integer M.
+Function to determine if graph can be coloured with at most M colours such
 that no two adjacent vertices of graph are coloured with same colour.
 ''')
 def graphColoring(graph, N, M):
