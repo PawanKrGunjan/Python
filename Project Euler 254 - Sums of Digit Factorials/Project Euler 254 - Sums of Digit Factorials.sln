@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Project Euler 254 - Sums of Digit Factorials", "Project Euler 254 - Sums of Digit Factorials.pyproj", "{FD71F47C-D3FD-4768-A229-5C19F98981C7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FD71F47C-D3FD-4768-A229-5C19F98981C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD71F47C-D3FD-4768-A229-5C19F98981C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D74C77E5-2E74-4AEE-88AC-E2653B2F8E23}
+	EndGlobalSection
+EndGlobal
