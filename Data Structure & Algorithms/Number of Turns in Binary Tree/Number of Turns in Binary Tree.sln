@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32630.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Number of Turns in Binary Tree", "Number of Turns in Binary Tree.pyproj", "{871B2682-1665-4E37-BD9A-8B5EB87F8D25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{871B2682-1665-4E37-BD9A-8B5EB87F8D25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{871B2682-1665-4E37-BD9A-8B5EB87F8D25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4177A749-C6C5-48CB-98D7-8B068C7B19E3}
+	EndGlobalSection
+EndGlobal

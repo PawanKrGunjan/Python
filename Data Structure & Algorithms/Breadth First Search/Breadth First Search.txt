@@ -1,0 +1,36 @@
+BFS (Breadth-First Search) is a vertex-based technique for finding the shortest path in the graph.
+It uses a Queue data structure that follows first in first out.
+In BFS, one vertex is selected at a time when it is visited and marked then its adjacent are visited 
+and stored in the queue. It is slower than DFS.
+
+Input:
+        A
+       / \
+      B   C
+     /   /  \
+    D   E    F
+Output : A, B, C, D, E, F
+
+* BFS stands for Breadth First Search.
+* BFS(Breadth First Search) uses Queue data structure for finding the shortest path.
+* BFS is a traversal approach in which we first walk through all nodes on the same level
+     before moving on to the next level.
+* BFS can be used to find a single source shortest path in an unweighted graph because, in BFS, 
+    we reach a vertex with a minimum number of edges from a source vertex. 
+* BFS builds the tree level by level.
+* It works on the concept of FIFO (First In First Out). 
+* BFS is more suitable for searching vertices closer to the given source.
+* BFS considers all neighbors first and therefore not suitable for decision-making trees 
+    used in games or puzzles.
+* The Time complexity of BFS is O(V + E) when Adjacency List is used and O(V^2) 
+    when Adjacency Matrix is used, where V stands for vertices and E stands for edges.
+* Here, siblings are visited before the children.
+* Nodes that are traversed several times are deleted from the queue. 
+* In BFS there is no concept of backtracking.
+* BFS is used in various applications such as bipartite graphs, shortest paths, etc.
+* BFS requires more memory.
+* BFS is optimal for finding the shortest path.
+* In BFS, the space complexity is more critical as compared to time complexity.
+* BFS is slow as compared to DFS.
+* When the target is close to the source, BFS performs better. 
+* 
