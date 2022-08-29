@@ -44,29 +44,8 @@ def build_tree(elements):
 
     return root
 
-def IsFoldable(root):
-    if root is None:
-        return True
-    
-    return isFoldableUntil(root.left, root.right)
-    
-def isFoldableUntil(l, r):
-    if l == None and r == None:
-        return True
-    
-    if l == None or r == None :
-        return False
-
-    a = isFoldableUntil(l.left, r.right)
-    b = isFoldableUntil(l.right, r.left)
-    return a and b
 
 if __name__ == '__main__':
     numbers = [17, 4, 1, 20, 9, 23, 18, 34, 5]
     tree = build_tree(numbers)
     print(tree.in_order_traversal())
-    print(IsFoldable(tree))
-    if IsFoldable(tree) is True:
-        print("Yes")
-    else :
-        print("No")
