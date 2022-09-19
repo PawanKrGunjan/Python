@@ -1,4 +1,4 @@
-print("Wrong")
+print("Wrong Answer")
 class Solution:
 	def DistinctSum(self, nums):
 		# Code here
@@ -8,14 +8,11 @@ class Solution:
 		S = set()
 		#while n > 1:
 		for i in range(l):
-			S.add(0)
 			S.add(nums[i])
-			for j in range(i,l):
-				for k in range(i):
-					Sum = nums[i] + sum(nums[k:i])
-
-		#n -= 1
-		#print(S)
+			S.add(sum(nums[:i+1]))
+			S.add(sum(nums[i:]))
+			for j in range(i+1,l):
+				S.add(sum(nums[i:j]))
 		return S
 
 ob = Solution()
