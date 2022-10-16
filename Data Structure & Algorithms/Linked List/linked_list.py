@@ -114,34 +114,56 @@ class LinkedList:
             itr = itr.next
             #index += 1
 
+    def moveToFront(self):
+        tmp = self.head
+        sec_last = None  
+
+        # To maintain the track of the second last node
+        # To check whether we have not received
+        # the empty list or list with a single node
+        if not tmp or not tmp.next:
+            return
+ 
+        # Iterate till the end to get
+        # the last and second last node
+        while tmp and tmp.next:
+            sec_last = tmp
+            tmp = tmp.next
+ 
+        # point the next of the second
+        # last node to None
+        sec_last.next = None
+ 
+        # Make the last node as the first Node
+        tmp.next = self.head
+        self.head = tmp
+
+
+
+
 if __name__ == '__main__':
     ll = LinkedList()
     ll.insert_values(["banana","mango","grapes","orange"])
     ll.print()
+    print('Linked list after_value')
     ll.insert_after_value("mango","apple") # insert apple after mango
+    print('Linked list "Move to Front"')
+    ll.moveToFront()
     ll.print()
+    print('Linked list "Remove By Value"')
     ll.remove_by_value("orange") # remove orange from linked list
     ll.print()
+    print('Linked list "Insert at Begining"')
     ll.insert_at_begining("figs")
     ll.print()
+    print('Linked list "Length"')
     ll.get_length()
+    print('Linked list "Remove By Values"')
     ll.remove_by_value("figs")
     ll.print()
     ll.remove_by_value("banana")
     ll.remove_by_value("mango")
     ll.remove_by_value("apple")
     ll.remove_by_value("grapes")
+    print('Linked list "Remove By Values"')
     ll.print()
-
-'''
-    l1 = LinkedList()
-    l1.insert_values(["banana","mango","grapes","orange"])
-    l1.insert_at(1, "blueberry")
-    l1.remove_at(2)
-    l1.print()
-
-    l2 = LinkedList()
-    l2.insert_values([45,7,12,567,99])
-    l2.insert_at_end(67)
-    l2.print()
-'''
